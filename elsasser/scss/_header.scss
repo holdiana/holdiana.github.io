@@ -1,0 +1,28 @@
+header {
+	height: 42px;
+	margin-top: -7px;
+}
+
+.collapse {
+	padding-left: 111px;
+}
+.header__logo {
+	margin: 0px 0 0 45px;
+}
+.nav-item {
+	margin-left: 13px;
+
+	&:hover {
+		border: solid 2px #eaedf5;
+		border-radius: 8px;
+		box-sizing: border-box;
+		padding: 4px 15px;
+	}
+}
+// .nav-link:hover {
+// 	display: inline-block;
+// 	color: #2e75ff;
+// }
+.navbar-nav {
+	color: red;
+}

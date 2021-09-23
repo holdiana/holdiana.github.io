@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Public+Sans:wght@500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: $font_primary, sans-serif;
+	color: $text_color-gray;
+	font-size: $font_size_normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: $primary_color;
+	font-family: $font_article;
+	font-weight: 700;
+}
+h1 {
+	font-size: 2.82rem;
+	padding: 69px 0 35px 0;
+	line-height: 4.39rem;
+	letter-spacing: 1.2px;
+}
+@media (max-width: 992px) {
+	h1 {
+		font-size: 2rem;
+		line-height: 2.5rem;
+		max-width: 300px;
+	}
+}
+h2 {
+	font-size: 1.17rem;
+	line-height: 200%;
+	letter-spacing: 2.4px;
+	padding: 33px 0 18px 0;
+}
+h3 {
+	font-size: 1.17rem;
+	color: $white-color;
+	letter-spacing: 2.4px;
+	text-align: left;
+	margin: 10px 0 30px 35px;
+}
+h4 {
+	letter-spacing: 2.4px;
+	font-size: 1.64rem;
+	padding-bottom: 42px;
+	color: #020303;
+	text-align: center;
+}
+h5 {
+	color: $white-color;
+	font-weight: 500;
+	letter-spacing: 1.4px;
+	line-height: 2.35rem;
+}
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+.gray-line {
+	width: 227px;
+	height: 7px;
+	background-color: #edeff3;
+}
